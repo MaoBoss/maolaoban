@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>想开点</title>
+    <link rel="stylesheet" href="">
+    <style>
+
+        .box{
+            width:100%;
+            height:700px;
+            border:1px solid rgba(0, 0, 0, 0);
+            border-bottom:none;
+        }
+
+        .c9,.c8,.c7,.c6,.c5,.c4,.c3,.c2,.c1{
+            float:left;
+            height:2px;
+            width:300px;
+            /* animation-fill-mode:forwards; *//* 动画播放后停留在最后一帧 */
+            animation-direction:normal;/* 动画播放方向  */
+        }
+        .c1{
+            /* background:#FF0505; */background:#7F7F7F;
+            float:left;
+            animation:yi 2s  none;
+            animation-fill-mode:forwards;
+            animation-delay:0s;
+            /* border:1px solid #FF0505; */ border:1px solid #7F7F7F;
+            /* animation-play-state:paused; */
+        }
+        .c2{
+            /* background:#0505FF; */background:#7F7F7F;
+            float:left;
+            animation:er 2s none;
+            margin-left:-300px;
+            animation-fill-mode:forwards;
+            animation-delay:0.5s;
+            /* border:1px solid #0505FF; */ border:1px solid #7F7F7F;
+        }
+        .c3{
+            /* background:#05FF05; */background:#7F7F7F;
+            animation:four 2s none;
+            margin-left:-300px;
+            float:left;
+            animation-fill-mode:forwards;
+            animation-delay:1s;
+            /* border:1px solid #05FF05; */ border:1px solid #7F7F7F;
+        }
+        .c4{
+            /* background:#00FAFA; */background:#7F7F7F;
+            animation:c4 2s  none;
+            animation-fill-mode:forwards;
+            float:left;
+            margin-left:-300px;
+            animation-delay:1.5s;
+            /* border:1px solid #00FAFA; */ border:1px solid #7F7F7F;
+        }
+        .c5{
+            /* background:#7D007D; */background:#7F7F7F;
+            animation:c5 2s  none;
+            animation-fill-mode:forwards;
+            float:left;
+            margin-left:-300px;
+            animation-delay:2s;
+            /* border:1px solid #7D007D; */ border:1px solid #7F7F7F;
+        }
+        .c6{
+            /* background:#007D7D; */background:#7F7F7F;
+            animation:c6 2s  none;
+            animation-fill-mode:forwards;
+            margin-left:-300px;
+            float:left;
+            animation-delay:2.5s;
+            /* border:1px solid #007D7D; */ border:1px solid #7F7F7F;
+        }
+        .c7{
+            /* background:#007D7D; */background:#7F7F7F;
+            animation:c7 2s  none;
+            animation-fill-mode:forwards;
+            margin-left:-300px;
+            float:left;
+            animation-delay:3s;
+            /* border:1px solid #007D7D; */ border:1px solid #7F7F7F;
+        }
+        .c8{
+            /* background:#FF8282; */background:#7F7F7F;
+            animation:c8 2s none;
+            margin-left:-300px;
+            float:left;
+            animation-fill-mode:forwards;
+            animation-delay:3.5s;
+            /* border:1px solid #FF8282; */ border:1px solid #7F7F7F;
+        }
+        .c9{
+            background:#7F7F7F;
+            animation:c9 2s  none;
+            animation-fill-mode:forwards;
+            float:left;
+            margin-left:-300px;
+            animation-delay:4s;
+            border:1px solid #7F7F7F;
+        }
+        @keyframes yi{
+
+            100%{transform:translate(450px, 100px);}
+        }
+        @keyframes er{
+            50%{
+                transform:translate(698px,0px)rotate(-45deg);
+            }
+            100%{transform: translate(494px, 206px) rotate(-45deg);}
+        }
+        @keyframes three{
+            100%{transform: translate(89px, 462px) rotate(-90deg);}
+        }
+        @keyframes four{
+            100%{transform: translate(190px, 206px) rotate(-45deg);}
+        }
+        @keyframes c4{
+            50%{transform:translate(0px,313px);}
+            100%{transform:translate(233px, 313px);}
+        }
+        @keyframes c5{
+            50%{transform:translate(0px,462px) rotate(-90deg);}
+            100%{transform: translate(383px, 462px) rotate(-90deg);}
+        }
+        @keyframes c6{
+
+            50%{transform: translate( 0px,462px) rotate(-90deg);}
+            100%{transform: translate(79px, 462px) rotate(-90deg);}
+        }
+        @keyframes c7{
+            50%{
+                transform: translate(893px, 0px);
+            }
+            100%{transform: translate(593px, 250px) rotate(-90deg);}
+        }
+        @keyframes c8{
+            50%{transform: translate(1000px, 0px) rotate(-45deg);}
+            100%{transform: translate(486px, 504px) rotate(-45deg);}
+        }
+        @keyframes c9{
+            50%{transform:translate(0px, 611px)rotate(-90deg);}
+            100%{transform:translate(226px, 611px);}
+        }
+        a{
+            text-decoration:none;
+        }
+        .butt{
+            width:50px;
+            height:50px;
+            text-align:center;
+            color:blue;
+            font-size:50px;
+            border:none;
+        }
+
+        /*  */
+        .shan{
+            background:#B8B8B8;
+            width:298px;
+            height:209px;
+            transform:skew(-45deg);
+            margin-left:346px;
+            border:none;
+            margin-top:104px;
+            animation:shan 5s none;
+            animation-fill-mode:forwards;
+            animation-delay:2.5s;
+        }
+
+        @keyframes shan{
+            100%{
+                background:#C8C8C8;
+                /* box-shadow:100px -100px 100px 30px #C8C8C8; */
+            }
+        }
+        .zhong{
+            background:#B8B8B8;
+            height:300px;
+            width:300px;
+            border:none;
+            margin-left:241px;
+            margin-top:3px;
+            animation:zhong 5s none;
+            animation-fill-mode:forwards;
+            animation-delay:5s;
+        }
+        @keyframes zhong{
+            100%{
+                background:#D9D9D9;/*
+                box-shadow:100px -100px 100px 30px #C8C8C8; */
+            }
+        }
+        .you{
+            background:#B8B8B8;
+            height:297px;
+            width:210px;
+            float:left;
+            border:none;
+            margin-left:544px;
+            margin-top:-408px;
+            transform:skew(0,-45deg);
+            animation:you 5s none;
+            animation-fill-mode:forwards;
+            animation-delay:5.5s;
+            /* 颜色 */
+        }
+        @keyframes you{
+            100%{
+                background:#909090;
+            }
+        }
+         /* 影子 */
+        .shadowxm{
+            float:left;
+            height:80px;
+            width:214px;
+            transform:skew(-80deg,-45deg);
+            /* background:#000; */
+            margin-top:-190px;
+            margin-left:772px;
+            animation:shadowxm 0.5s none;
+            animation-fill-mode:forwards;
+            animation-delay:10s;
+        }
+        @keyframes shadowxm{
+            100%{
+                background:#ABABAB;
+                box-shadow:-3px 3px -3px 6px #ABABAB;
+            }
+        }
+        .shadowsm{
+            height:100px;
+            width:454px;
+            transform: skew(0deg,-10deg);
+            margin-top:-356px;
+            margin-left:758px;
+            animation:shadowsm 0.5s none;
+            animation-fill-mode:forwards;
+            animation-delay:10s;
+        }
+        @keyframes shadowsm{
+            100%{
+                background:#ABABAB;
+                box-shadow:-3px 3px -3px 6px #ABABAB;
+            }
+        }
+        body{
+            margin:auto ;
+            height:2400px;
+            width:100%;
+            background:#B8B8B8;
+            animation:bod 1s linear;
+            animation-delay:9.5s;
+            animation-fill-mode:forwards;
+        }
+         @keyframes bod{
+            100%{
+                background-image:linear-gradient(25deg,#fff,#aaa) ;
+            }
+        }
+        /* .box:hover div:nth-child(13),
+        .box:hover div:nth-child(14){
+            background:#ABABAB;
+            box-shadow:-3px 3px -3px 6px #ABABAB;
+        }
+        body:hover{
+             background-image:linear-gradient(25deg,#fff,#aaa);
+        } */
+    </style>
+</head>
+<body>
+<label>
+    <div class="box">
+        <div class="c1"></div>
+        <div class="c2"></div>
+        <div class="c3"></div>
+        <div class="c4"></div>
+        <div class="c5"></div>
+        <div class="c6"></div>
+        <div class="c7"></div>
+        <div class="c8"></div>
+        <div class="c9"></div>
+        <div class="shan"></div>
+        <div class="zhong"></div>
+        <div class="you"></div>
+        <div class="shadowxm"></div>
+        <div class="shadowsm"></div>
+    </div>
+    <!-- <button onclick="run(1)">动</button> -->
+    <span style="padding-left: 50px;"></span>
+    <!-- <button onclick="run(2)">不动</button> -->
+    <script type="text/javascript">
+        var dong = document.querySelector('c1');
+        function run( type ){
+            var isRun = type ? 'running': 'paused';
+            dong.style['animation-play-state'] = isRun;
+        }
+    </script>
+</label>
+</body>
+</html>
